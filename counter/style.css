@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: darkolivegreen;
+}
+
+header {
+  background-color: darkslategray;
+  color: antiquewhite;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+h2 {
+  margin: 55px auto;
+}
+
+.num {
+  margin: 0 auto;
+}
+
+.btns {
+  margin: 0 auto;
+}
