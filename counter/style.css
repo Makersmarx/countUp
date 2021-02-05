@@ -1,21 +1,25 @@
 body {
   margin: 0;
   font-size: 32px;
-  background-color: darkolivegreen;
+  background-color: #a9d2d5;
 }
 
 header {
-  background-color: darkslategray;
-  color: antiquewhite;
+  background-color: #808d8e;
+  color: #fff;
   margin: 0 auto;
   padding: 10px;
   text-align: center;
+  font-family: sans-serif, "roboto";
 }
 
 .title {
   display: flex;
   flex-direction: column;
   color: #fff;
+  border: solid 3px #a3a5c3;
+  background-color: #766c7f;
+  margin: 85px;
 }
 
 h2 {
@@ -27,5 +31,7 @@ h2 {
 }
 
 .btns {
-  margin: 0 auto;
+  margin: 5px auto;
 }
+
+/*# sourceMappingURL=style.css.map */

@@ -3,10 +3,10 @@ let num = 0;
 const addOne = () => {
   num += 1;
   document.getElementById('number').innerHTML = num;
-  if (num === 5) {
+  if (num % 5 === 0) {
     document.getElementById('number').style.color = 'red';
   } else {
-    document.getElementById('number').style.color = 'blue';
+    document.getElementById('number').style.color = '#A9D2D5';
   }
 };
 
@@ -18,9 +18,9 @@ const subOne = () => {
     document.getElementById('number').innerHTML = num;
   }
 
-  if (num === 5) {
+  if (num % 5 === 0) {
     document.getElementById('number').style.color = 'red';
   } else {
-    document.getElementById('number').style.color = 'blue';
+    document.getElementById('number').style.color = '#A9D2D5';
   }
 };

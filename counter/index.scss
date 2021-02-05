@@ -1,0 +1,48 @@
+// colors
+$bgColor: #a9d2d5;
+$headerColor: #808d8e;
+$titleColor: #766c7f;
+$borderColor: #a3a5c3;
+
+// fonts and sizes
+
+$fontSize: 32px;
+$fontFamily: sans-serif, 'roboto';
+
+// style
+
+body {
+  margin: 0;
+  font-size: $fontSize;
+  background-color: $bgColor;
+}
+
+header {
+  background-color: $headerColor;
+  color: #fff;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  font-family: $fontFamily;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  border: solid 3px $borderColor;
+  background-color: $titleColor;
+  margin: 85px;
+}
+
+h2 {
+  margin: 55px auto;
+}
+
+.num {
+  margin: 0 auto;
+}
+
+.btns {
+  margin: 5px auto;
+}
