@@ -3,6 +3,11 @@ let num = 0;
 const addOne = () => {
   num += 1;
   document.getElementById('number').innerHTML = num;
+  if (num === 5) {
+    document.getElementById('number').style.color = 'red';
+  } else {
+    document.getElementById('number').style.color = 'blue';
+  }
 };
 
 const subOne = () => {
@@ -11,5 +16,11 @@ const subOne = () => {
   } else {
     num -= 1;
     document.getElementById('number').innerHTML = num;
+  }
+
+  if (num === 5) {
+    document.getElementById('number').style.color = 'red';
+  } else {
+    document.getElementById('number').style.color = 'blue';
   }
 };
